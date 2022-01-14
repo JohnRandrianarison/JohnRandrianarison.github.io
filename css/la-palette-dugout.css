@@ -159,9 +159,11 @@
   align-items: center;
   justify-content: center;
   border-radius: 100px;
+}
+
+.menuItem:hover .menuItem__wrapIcon {
   animation-name: r;
-  animation-duration: 2000ms;
-  animation-iteration-count: infinite;
+  animation-duration: 500ms;
 }
 /*order*/
 .wrapBtn {
