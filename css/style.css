@@ -269,3 +269,9 @@ body {
   margin-right: 0.5rem;
   font-size: 12px;
 }
+
+@media only screen and (min-width: 480px) {
+  .size__body {
+    max-width: 820px;
+  }
+}
