@@ -1,6 +1,5 @@
 @import "homePageContainer.css";
 @import "OthersPageContainer.css";
-@import "mediaScreen.css";
 @import "animation.css";
 @import "image.css";
 @import "footer.css";
@@ -17,4 +16,78 @@ body {
   max-width: 480px;
   margin: 0 auto;
   height: 100vh;
+}
+/* for Tablet */
+@media only screen and (min-width: 480px) {
+  .size__body {
+    max-width: 820px;
+  }
+  .card__img {
+    height: 17rem;
+  }
+}
+
+/* for desktop */
+@media only screen and (min-width: 820px) {
+  .size__body {
+    max-width: 1920px;
+  }
+  .tuto {
+    max-width: 1200px;
+    margin: auto;
+  }
+  .tuto__steps {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .restaurants {
+    max-width: 1200px;
+    margin: auto;
+  }
+  .cards {
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: 2fr;
+    grid-template-areas: "header header";
+    grid-gap: 30px;
+  }
+  .card__img {
+    height: 17rem;
+  }
+  .menu {
+    max-width: 1200px;
+    margin: auto;
+    margin-top: -4rem;
+    position: relative;
+  }
+  .submenus {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    column-gap: 1rem;
+  }
+
+  .heroImg2 {
+    max-height: 32rem;
+  }
+  /*synchronize animation*/
+  .delay-3 {
+    animation-delay: 0s;
+  }
+  .delay-4 {
+    animation-delay: 0.1s;
+  }
+  .delay-5 {
+    animation-delay: 0.2s;
+  }
+  .delay-6 {
+    animation-delay: 0s;
+  }
+  .delay-7 {
+    animation-delay: 0.1s;
+  }
+  .delay-8 {
+    animation-delay: 0.2s;
+  }
 }
