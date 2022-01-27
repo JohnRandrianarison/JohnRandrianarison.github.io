@@ -161,7 +161,6 @@
 .menu__btn {
   height: 2rem;
   width: 2rem;
-  background-color: initial;
   border: 0 solid transparent;
   padding: 0;
   display: flex;
@@ -193,7 +192,7 @@
 }
 .menu__like {
   transition-duration: 0.25s;
-  background-color: #f6f6f6;
+  background-color: white;
   display: flex;
   align-items: center;
   justify-content: center;
