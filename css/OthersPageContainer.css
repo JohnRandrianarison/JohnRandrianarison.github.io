@@ -17,6 +17,7 @@
 }
 .menu__title {
   font-family: "Shrikhand", cursive;
+  font-weight: 550;
 }
 
 /* submenu */
@@ -81,6 +82,7 @@
   flex: 1;
 }
 .menuItem__title {
+  font-weight: 600;
   margin: 0;
 }
 .menuItem__description {
